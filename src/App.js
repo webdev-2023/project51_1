@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+/* Requirement Statement: Create a ReactJS application that manipulates a cash balance on an account using Redux.
+    ● This app should contain 4 buttons named:
+        ○ Withdraw,
+        ○ Deposit,
+        ○ Add Interest,
+        ○ Charges.
+    ● It must also include one input box that you will use to enter the amount that you wish to deposit or withdraw.
+    ● Include the space to view your balance as it gets updated.
+*/
+
+import Balance from "./components/Balance";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Balance />
   );
 }
 
